@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convoxa Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="orb orb-top"></div>
+    <div class="orb orb-left"></div>
+    <div class="orb orb-right"></div>
+
+
+<div class="signup-container">
+
+    <div class="logo">
+        <h1>💬 Convoxa</h1>
+        <p>Connect • Share • Chat</p>
+    </div>
+
+    <div class="avatar-section">
+        <img src="default pic.avif" id="preview">
+        <!-- <input type="file" id="avatar" accept="image/*"> -->
+    </div>
+
+    <input type="text" id="username" placeholder="Username">
+
+    <input type="email" id="email" placeholder="Email">
+
+    <div class="password-box">
+        <input type="password" id="password" placeholder="Password">
+        <span onclick="togglePassword()">👁</span>
+    </div>
+
+    <input type="password" id="confirm-password" placeholder="Confirm Password">
+
+    <button onclick="signup()">Create Account</button>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Log In</a>
+    </p>
+
+</div>
+
+
+<script src="signup.js"></script>
+
+</body>
+</html>
