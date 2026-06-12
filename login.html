@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+    <div class="orb orb-top"></div>
+    <div class="orb orb-left"></div>
+    <div class="orb orb-right"></div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <input type="email" id="loginUser" placeholder="Email"/>
+            <div class="password-box">
+        <input type="password" id="password" placeholder="Password">
+        <span onclick="togglePassword()">👁</span>
+    </div>
+            <button onClick="login()">Login</button>
+            <p>
+                Don't have an account?
+                <a href="signup.html">Signup</a>
+            </p>
+        </div>
+        <div class="hidden form" id="signupform">
+            <h2>Signup</h2>
+            <p>
+                ALready have an account?
+                <a href="signup.html">Login</a>
+            </p>
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>
